@@ -1,0 +1,33 @@
+.emp {
+  &__error {
+    text-align: center;
+    width: 100%;
+
+    & h3 {
+      margin-bottom: 15px;
+    }
+
+    & img {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.btn__active {
+  color: rgb(32, 32, 255);
+}
+
+.anim-enter {
+  opacity: 0;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+.anim-exit {
+  opacity: 1;
+}
+.anim-exit-active {
+  opacity: 0;
+  transition: opacity 2000ms;
+}

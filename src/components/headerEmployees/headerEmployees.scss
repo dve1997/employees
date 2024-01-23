@@ -1,0 +1,82 @@
+.emp {
+  &__bodyheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 2px solid rgb(66, 66, 255);
+    background-color: rgb(165, 165, 165);
+  }
+
+  &__log {
+    & img {
+      width: 35px;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__list {
+    padding: 5px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 500;
+    border: 2px solid rgb(66, 66, 255);
+    border-radius: 20px;
+    background-color: rgb(107, 159, 255);
+    box-shadow: 5px 5px 5px rgb(66, 66, 255);
+  }
+
+  &__dataemp {
+    padding: 5px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 500;
+    border: 2px solid rgb(66, 66, 255);
+    border-radius: 20px;
+    background-color: rgb(107, 159, 255);
+    box-shadow: 5px 5px 5px rgb(66, 66, 255);
+  }
+
+  &__create {
+    padding: 5px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 500;
+    border: 2px solid rgb(66, 66, 255);
+    border-radius: 20px;
+    background-color: rgb(107, 159, 255);
+    box-shadow: 5px 5px 5px rgb(66, 66, 255);
+  }
+
+  &__search {
+    border: 2px solid rgb(66, 66, 255);
+    box-shadow: 5px 5px 5px rgb(66, 66, 255);
+
+    & input {
+      padding: 5px;
+    }
+  }
+}
+
+.anim-enter {
+  opacity: 0;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+.anim-exit {
+  opacity: 1;
+}
+.anim-exit-active {
+  opacity: 0;
+  transition: opacity 2000ms;
+}

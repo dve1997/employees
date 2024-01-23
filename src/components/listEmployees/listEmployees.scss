@@ -1,0 +1,98 @@
+.emp {
+  &__items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 15px 15px 0;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(165, 165, 165);
+    box-shadow: 5px 5px 5px rgb(66, 66, 255);
+  }
+
+  &__data {
+  }
+
+  &__fio {
+    padding: 5px;
+    margin-right: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  &__change {
+  }
+
+  &__bonus {
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  &__salary {
+    width: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  &__promotion {
+    width: 25px;
+    cursor: pointer;
+  }
+  &__close {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid rgb(66, 66, 255);
+    background-color: rgb(107, 159, 255);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    cursor: pointer;
+  }
+}
+
+.img__active {
+  outline: 2px solid rgb(66, 66, 255);
+}
+
+.anim {
+  opacity: 0;
+  visibility: hidden;
+}
+.anim-enter {
+  opacity: 0;
+  visibility: hidden;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms;
+  visibility: visible;
+}
+.anim-enter-done {
+  opacity: 1;
+  visibility: visible;
+}
+.anim-exit {
+  opacity: 1;
+  visibility: visible;
+}
+.anim-exit-active {
+  opacity: 0;
+  transition: opacity 2000ms;
+  visibility: hidden;
+}
+.anim-exit-done {
+  opacity: 0;
+  visibility: hidden;
+}

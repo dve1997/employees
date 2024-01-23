@@ -1,0 +1,94 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "fio": "Денисов Владислав Евгеньевич",
+      "jobtitle": "директор",
+      "salary": "10000",
+      "experience": "5",
+      "bonus": true,
+      "salaryUp": false,
+      "promotion": false
+    },
+    {
+      "id": "2",
+      "fio": "Денисова Диана Олеговна",
+      "jobtitle": "бугалтер",
+      "salary": "5000",
+      "experience": "3",
+      "bonus": false,
+      "salaryUp": true,
+      "promotion": false
+    },
+    {
+      "id": "3",
+      "fio": "Денисов Евгений Владимирович",
+      "jobtitle": "инженер",
+      "salary": "5000",
+      "experience": "10",
+      "bonus": false,
+      "salaryUp": false,
+      "promotion": true
+    },
+    {
+      "id": "4",
+      "fio": "Денисова Светлана Викторовна",
+      "jobtitle": "инженер",
+      "salary": "5000",
+      "experience": "10",
+      "bonus": false,
+      "salaryUp": false,
+      "promotion": true
+    },
+    {
+      "id": "4c03267a-9f05-4a4a-9975-30319c53dae7",
+      "fio": "Залалдинов Олег Азатович",
+      "jobtitle": "инженер",
+      "salary": "5000",
+      "experience": "15",
+      "bonus": false,
+      "salaryUp": true,
+      "promotion": false
+    },
+    {
+      "id": "bdef2b96-f487-4973-bbf0-e0fccb9ef355",
+      "fio": "Залалдинова Виолетта Владимировна",
+      "jobtitle": "инженер",
+      "salary": "5000",
+      "experience": "15",
+      "bonus": true,
+      "salaryUp": false,
+      "promotion": false
+    },
+    {
+      "id": "37a27527-a8b3-4cb6-b43f-66dda9ef6ebd",
+      "fio": "Фролов Максим Витальевич",
+      "jobtitle": "инженер",
+      "salary": "7000",
+      "experience": "5",
+      "bonus": true,
+      "salaryUp": false,
+      "promotion": false
+    },
+    {
+      "id": "e6e17044-43f0-4f59-914b-b28fb9b43e39",
+      "fio": "Ефимов Михаил Сергеевич",
+      "jobtitle": "инженер",
+      "salary": "7000",
+      "experience": "5",
+      "bonus": false,
+      "salaryUp": true,
+      "promotion": false
+    },
+    {
+      "id": "1b43f542-89f0-4589-8166-99e52103d88f",
+      "fio": "Перец Данила Павлович",
+      "jobtitle": "инженер",
+      "salary": "7000",
+      "experience": "5",
+      "bonus": false,
+      "salaryUp": false,
+      "promotion": true
+    }
+  ]
+}

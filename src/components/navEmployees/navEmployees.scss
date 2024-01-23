@@ -1,0 +1,59 @@
+.emp {
+  &__navbar {
+    display: block;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 2px solid rgb(66, 66, 255);
+    background-color: rgb(165, 165, 165);
+    min-width: 250px;
+  }
+
+  &__sorting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  &__btn {
+    padding: 5px;
+    margin: 0 10px 15px 0;
+    color: white;
+    font-weight: 500;
+    border: 2px solid rgb(66, 66, 255);
+    border-radius: 20px;
+    background-color: rgb(107, 159, 255);
+    box-shadow: 5px 5px 5px rgb(66, 66, 255);
+  }
+
+  &__btnall {
+  }
+
+  &__btnbonus {
+  }
+
+  &__btnsalary {
+  }
+
+  &__btnpromotion {
+  }
+}
+
+.btn__active {
+  color: rgb(32, 32, 255);
+}
+
+.anim-enter {
+  opacity: 0;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+.anim-exit {
+  opacity: 1;
+}
+.anim-exit-active {
+  opacity: 0;
+  transition: opacity 2000ms;
+}

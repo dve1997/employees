@@ -1,0 +1,32 @@
+.emp {
+  &__bodyfooter {
+    padding: 15px;
+    border: 2px solid rgb(66, 66, 255);
+    background-color: rgb(165, 165, 165);
+    text-align: center;
+
+    & p {
+      color: white;
+      font-weight: 500;
+    }
+  }
+}
+
+.btn__active {
+  color: rgb(32, 32, 255);
+}
+
+.anim-enter {
+  opacity: 0;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+.anim-exit {
+  opacity: 1;
+}
+.anim-exit-active {
+  opacity: 0;
+  transition: opacity 2000ms;
+}
